@@ -1,0 +1,46 @@
+body{
+  background-image: url(E:/Boolean/CC/background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  background: rgba(0,0,0,0.5)
+}
+
+.logo{
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.logotext{
+  display: block;
+  text-align: center;
+}
+
+h1{
+  font-family: Helvetica;
+  color: rgb(0,221,0);
+}
+
+.tasti{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#monop, #monop2, #monop3{
+  display: inline;
+  font-family: Helvetica;
+  color: white;
+}
+
+.arrow{
+  color: white;
+}
+
+.arrow:after{
+  content: "\21A6";
+}
